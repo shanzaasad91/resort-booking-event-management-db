@@ -2,7 +2,7 @@
 
 A complete PostgreSQL database system for managing resort operations: customer bookings, room allocation, event scheduling, staff management, payments, cancellations, car rentals, weather-based services, and feedback.
 
-![ERD](erd/final-erd.png)
+![ERD](resort-booking-event-management-db/erd/final-erd.png)
 *Entity Relationship Diagram — 18 tables with full relationships*
 
 ---
@@ -30,7 +30,7 @@ A complete PostgreSQL database system for managing resort operations: customer b
 
 ## 🗄️ Database Schema
 
-![All Tables](screenshots/01-tables-tree.jpeg)
+![All Tables](resort-booking-event-management-db/screenshots/01-tables-tree.jpeg)
 *All 18 tables organized in PostgreSQL*
 
 ### Tables Created
@@ -59,7 +59,7 @@ A complete PostgreSQL database system for managing resort operations: customer b
 
 ## 📊 Sample Query Result
 
-![Join Query](screenshots/02-join-query.jpeg)
+![Join Query](resort-booking-event-management-db/screenshots/02-join-query.jpeg)
 *Multi-table JOIN showing booking details with customer and room info*
 
 **Query used:**
