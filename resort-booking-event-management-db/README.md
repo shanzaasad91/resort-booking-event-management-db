@@ -30,7 +30,7 @@ A complete PostgreSQL database system for managing resort operations: customer b
 
 ## 🗄️ Database Schema
 
-![All Tables](screenshots/01-tables-tree.jpg)
+![All Tables](screenshots/01-tables-tree.jpeg)
 *All 18 tables organized in PostgreSQL*
 
 ### Tables Created
@@ -59,7 +59,7 @@ A complete PostgreSQL database system for managing resort operations: customer b
 
 ## 📊 Sample Query Result
 
-![Join Query](screenshots/02-join-query.jpg)
+![Join Query](screenshots/02-join-query.jpeg)
 *Multi-table JOIN showing booking details with customer and room info*
 
 **Query used:**
@@ -76,4 +76,4 @@ SELECT
 FROM Booking b
 JOIN Customer c ON b.customer_id = c.customer_id
 JOIN Room r ON b.room_id = r.room_id
-ORDER BY b.booking_id;
+ORDER BY b.booking_id;<img width="946" height="490" alt="image" src="https://github.com/user-attachments/assets/7d33eb6b-ff35-42d3-8b0b-69a438553287" />
